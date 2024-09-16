@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_own">#FBEA44</color>
+    <color name="color_tow">#03A689</color>
+    <color name="color_own_white">#C2E9FB</color>
+    <color name="color_tow_black">#6B6105</color>
+    <color name="color_tow_white">#F4EC9F</color>
+
+    <color name="black">#1C1C1C</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>
