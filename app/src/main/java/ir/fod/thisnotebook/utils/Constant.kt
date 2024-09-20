@@ -24,10 +24,11 @@ class Constant {
 
         //api
 
+        // Get
         const val URL_GET_NOTE = "GetList.php"
 
-
-
+        // Send
+        const val URL_SEND_NOTE = "SendList.php"
 
     }
 

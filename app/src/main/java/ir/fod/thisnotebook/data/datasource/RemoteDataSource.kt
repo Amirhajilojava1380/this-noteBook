@@ -2,6 +2,7 @@ package ir.fod.thisnotebook.data.datasource
 
 import ir.fod.thisnotebook.data.api.NetWorkApi
 import ir.fod.thisnotebook.model.ListModel
+import ir.fod.thisnotebook.model.Message
 import ir.fod.thisnotebook.model.ResultListModel
 import ir.fod.thisnotebook.utils.NetWorkCheck
 import retrofit2.Response
@@ -20,6 +21,12 @@ class RemoteDataSource @Inject constructor(
 
     }
 
+
+    suspend fun sentNote(title : HashMap<String , String>) : Response<Message>{
+
+        return api.sentNote(title)
+
+    }
 
 
 
